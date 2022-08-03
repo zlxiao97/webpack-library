@@ -1,3 +1,5 @@
-const { add } = require("@zlxiao97/webpack-library");
+import init from '../src/index.js'
+window.onload = () => {
+    init('gjs')
+  }
 
-console.log(add(1, 2));
